@@ -1,4 +1,5 @@
 [![Lepto: The best image optimizations practices made simple](fixtures/readme/lepto.jpg)](#get-started-with-cli--npm-scripts)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fleptojs%2Flepto.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fleptojs%2Flepto?ref=badge_shield)
 
 <p align="center">
   <a href="https://travis-ci.org/leptojs/lepto"><img src="https://travis-ci.org/leptojs/lepto.svg?branch=master" alt="Build Status"></a>
@@ -387,3 +388,6 @@ This project is licensed under the [MIT license](LICENSE).
 [article]: https://dev.to/dimitrinicolas/learn-how-to-automate-your-image-optimization-process-with-lepto-890
 [dorian colin]: https://doriancolin.fr/
 [images.guide]: https://images.guide/
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fleptojs%2Flepto.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fleptojs%2Flepto?ref=badge_large)
