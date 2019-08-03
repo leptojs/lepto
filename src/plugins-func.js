@@ -1,4 +1,5 @@
 const path = require('path');
+const fs = require('fs');
 
 const nativePlugins = require('./plugins');
 
@@ -52,7 +53,7 @@ const resolverPlugin = (pluginName, eventsHandler) => {
 
   const pluginPath = name.indexOf('/') !== -1 ? name : `/node_modules/${name}`;
   try {
-    const plugin = require(path.join(process.cwd(), pluginPath));
+    const plugin = require(fs.realpathSync(path.join(process.cwd(), pluginPath)));
     if (typeof plugin === 'function') {
       return plugin;
     }
